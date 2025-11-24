@@ -21,8 +21,8 @@ Built with [LangGraph](https://langchain-ai.github.io/langgraph/) for reliable, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Birinder1469/RevaAI.git
-cd RevaAI
+https://github.com/akmukherjee/reva-ai-test
+cd reva-ai-test
 
 # Install dependencies
 uv sync
@@ -186,49 +186,8 @@ Defines available workflows:
 |----------|----------|-------------|
 | `OPENAI_API_KEY` | Yes | OpenAI API access |
 | `TAVILY_API_KEY` | Yes | Search API access |
-| `LANGSMITH_API_KEY` | No | LangSmith tracing |
-| `OPIK_API_KEY` | No | Opik evaluation |
+| `LANGSMITH_API_KEY` | Yes | LangSmith tracing |
 
-## Current Status
-
-**Iteration 1 - MVP** (December 2024)
-
-- ✅ Project setup and architecture
-- ✅ Workflow structure defined
-- 🚧 Matcher node implementation
-- 🚧 Promo normalizer implementation
-- 🚧 Simulator implementation
-- ⏳ Narrator node (LLM summarization)
-- ⏳ End-to-end testing
-- ⏳ Production deployment
-
-## Contributing
-
-This is an internal project. For team members:
-
-1. Create a feature branch: `git checkout -b feature/your-feature`
-2. Make your changes and add tests
-3. Run linting: `uv run ruff check src/`
-4. Commit: `git commit -m "Description"`
-5. Push: `git push origin feature/your-feature`
-6. Open a pull request
-
-## Tech Stack
-
-- **Python 3.12** - Modern Python with type hints
-- **LangGraph** - Workflow orchestration
-- **LangChain** - LLM integration
-- **OpenAI** - Language models
-- **uv** - Fast dependency management
-- **FastAPI** - Local development server
-- **Pytest** - Testing framework
-- **Ruff** - Linting and formatting
-
-## Team
-
-- **Product Owner**: Rejimon
-- **Team Lead**: Biplab
-- **Repository**: [Birinder1469/RevaAI](https://github.com/Birinder1469/RevaAI)
 
 ## Resources
 
