@@ -1,0 +1,26 @@
+# uv
+.venv/
+uv.lock          # Optional: commit this for reproducibility
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Langgraph checkpoints
+*.pckl
+.langgraph_api/
+
+# AI editors
+CLAUDE.md
+.cursor*
+.claude/
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
